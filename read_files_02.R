@@ -1,5 +1,14 @@
 
 
+##### The purpose of this script is to improve upon version one
+##### (read_files_01.R) by adding
+##### functionality to transpose the aggregated files to be in wide format
+##### and then save them to an Excel workbook
+#### Date : 21st Nov 2024
+####################################################################
+
+
+
 #load libraries
 
 library(tidyverse)
