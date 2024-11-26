@@ -1,6 +1,7 @@
 
 ##### The purpose of this script is to read multiple csv files in a folder,
 #### split them according to some criterion and then save them
+#### Date : 19th Nov 2024
 ####################################################################
 
 #load libraries

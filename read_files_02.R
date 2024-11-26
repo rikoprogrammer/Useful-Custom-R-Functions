@@ -27,6 +27,10 @@ csv_files_l <- list.files(here('Losartan NIR'), pattern = "\\.csv$")
 ####    Losartan files   ##########
 ###################################
 
+# Redefine read.csv function to make it easy to use with map_df from purrr,
+# basically i wanted to skip the first row of the data because it didn't contain
+# variable names rather it contained a description of the data set.
+
 read.csv2 <- function(file) {
   
   read.csv(here('Losartan NIR', file), skip = 1)
